@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[clicked create contacts link]]>
+    </line>
+    <line>
+      <![CDATA[clicked create contacts link]]>
+    </line>
+    <line>
+      <![CDATA[created new contact]]>
+    </line>
+    <line>
+      <![CDATA[header captured]]>
+    </line>
+    <line>
+      <![CDATA[header validated sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[created new contact]]>
+    </line>
+    <line>
+      <![CDATA[header captured]]>
+    </line>
+    <line>
+      <![CDATA[header validated sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-25T21:16:27 IST" name="Suite" finished-at="2023-10-25T21:18:17 IST" duration-ms="110246">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" name="createContactTest" class="ContactTests.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" name="createContactTest" class="ContactTests.CreateContactTest"/>
+      </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" name="createContactTest" class="ContactTests.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" name="createContactTest" class="ContactTests.CreateContactTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2023-10-25T21:16:27 IST" name="Test-Runner-Chrome" finished-at="2023-10-25T21:18:17 IST" duration-ms="110246">
+      <class name="ContactTests.CreateContactTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" started-at="2023-10-25T21:16:28 IST" name="bcConfig" finished-at="2023-10-25T21:17:10 IST" duration-ms="42237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" started-at="2023-10-25T21:17:13 IST" name="bmConfig" finished-at="2023-10-25T21:17:40 IST" duration-ms="26432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContactTest()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" started-at="2023-10-25T21:17:40 IST" name="createContactTest" finished-at="2023-10-25T21:18:09 IST" duration-ms="28754" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked create contacts link]]>
+            </line>
+            <line>
+              <![CDATA[created new contact]]>
+            </line>
+            <line>
+              <![CDATA[header captured]]>
+            </line>
+            <line>
+              <![CDATA[header validated sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" started-at="2023-10-25T21:18:09 IST" name="amConfig" finished-at="2023-10-25T21:18:10 IST" duration-ms="1864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" started-at="2023-10-25T21:18:11 IST" name="acConfig" finished-at="2023-10-25T21:18:17 IST" duration-ms="6743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- ContactTests.CreateContactTest -->
+    </test> <!-- Test-Runner-Chrome -->
+    <test started-at="2023-10-25T21:16:27 IST" name="Test-Runner-Firefox" finished-at="2023-10-25T21:18:17 IST" duration-ms="110246">
+      <class name="ContactTests.CreateContactTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:16:27 IST" name="bsConfig" finished-at="2023-10-25T21:16:27 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:16:28 IST" name="bcConfig" finished-at="2023-10-25T21:17:10 IST" duration-ms="42233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:17:13 IST" name="bmConfig" finished-at="2023-10-25T21:17:39 IST" duration-ms="25501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContactTest()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:17:39 IST" name="createContactTest" finished-at="2023-10-25T21:18:09 IST" duration-ms="30268" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked create contacts link]]>
+            </line>
+            <line>
+              <![CDATA[created new contact]]>
+            </line>
+            <line>
+              <![CDATA[header captured]]>
+            </line>
+            <line>
+              <![CDATA[header validated sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:18:09 IST" name="amConfig" finished-at="2023-10-25T21:18:11 IST" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:18:11 IST" name="acConfig" finished-at="2023-10-25T21:18:17 IST" duration-ms="6572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:18:23 IST" name="asConfig" finished-at="2023-10-25T21:18:23 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- ContactTests.CreateContactTest -->
+    </test> <!-- Test-Runner-Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

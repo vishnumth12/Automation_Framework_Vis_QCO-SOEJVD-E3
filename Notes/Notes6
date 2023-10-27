@@ -1,0 +1,147 @@
+gshshhXpath:
+It’s one of the locator in webdriver tool, which is used to navigate to entire html 
+document & identify the object based on web element attribute &  visible text[inner text]
+
+Xpath Symbols:
+//  -> go to entire html document or else Go to descendant Elements 
+/   -> traverse from parentHTMLTag to childHTMLTag
+/.. -> Traverse from childHTMLTag to parentHTMLTag
+[ ] -> provide tag backend attribute
+@   -> attribute symbol
+*   -> macth any htmlTag   [regular expression ]
+
+Xpath Keywords:
+And -> match both the attribute
+Or  -> match any one of the attribute
+
+Xpath Functions:
+Text()
+Contains()
+Normalize-space()
+Last()  
+
+Xpath Axes:
+1. self - current node
+2. parent - immediate parent of current node /..
+- //*[@attribute='value']/parent::tag
+-------------------------------------
+3. Child - immediate child of current node /
+- //*[@attribute='value']/child::tag
+------------------------------------------
+4. ancestor - parent's parent - grand parent with parent  
+- //*[@attribute='value']/ancestor::tag
+-------------------------------------------------
+5. descendant - child's child - grand child with child
+- //*[@attribute='value']/descendant::tag
+---------------------------------------------------
+6. following - all the nodes after the current node 
+- //*[@attribute='value']/following::tag
+----------------------------------------------------
+7. following-sibling - current node to next sibling with same parent 
+- //*[@attribute='value']/following-sibling::tag
+----------------------------------------------------
+8. preceding - all nodes before current node 
+- //*[@attribute='value']/preceding::tag
+-----------------------------------------------------------
+9. preceding-sibling - cuurent node to previous sibling with same parent 
+- //*[@attribute='value']/preceding-sibling::tag
+
+
+Types of Xpath:
+1. Absolute xpath
+  -> Whenever xpath is written from root-Htmltag to child-Htmltag , followed by / is 
+     called absolute xpath
+  -> whenever we copy the xpath from inspect window, its automatically generate 
+     Absolute xpath.
+  -> Absolute xpath should not be used in real time selenium test , because it fails to
+     identify the same object , whenever object location or requirement  is getting changed
+  -> Syntax
+     //html/body/div..
+
+2. Relative Xpath
+  -> whenever xpath written directly to the webelement using webelement attribute or 
+     visible text  is called relative xpath
+  -> Relative will never get failed, even though object location / requirement is getting 
+     changed
+  -> Because of Agile Methodology  better to go for relative Xpath 
+  -> Syntax
+    //htmlTag[@attribute=’value’]
+
+Different Cases to be followed while identifying the element using xpath:
+
+1. Case 1: How to identify the object using One attributes
+   -> Xpath is written directly to the element using unique attribute
+      Syntax:   //htmlTag[@attribute=’value’]
+      Example:  //input[@name='username']
+
+2. Case 2: How to identify the object using multiple attributes
+   -> when object not able to find the element usingone attribute , 
+      we can go for multiple attribute using and keyword
+      Syntax:-  //htmlTag[@attribute1=’value’ and @attribute2=’value’]
+      Example:- //input[@name='ck' and @type='checkbox']
+
+3. Case 3: How to identiy the object using visible text - text()
+   -> If the text is written between start & endTag is called Visible Text
+   -> text() is used to identify the object using visible text of the element
+   -> text() cannot identify dynamic text(the text which is changing dynamically)
+   -> text() cannot identify the object using part of the string , because its complete 
+      string matching function
+   -> it cannot ignore the space before & after the string
+   -> text() function navigate to html document & try to identify expected visible text 
+      in GUI, & return true if expected completely matches with UI text
+   -> Syntax:-  //htmltag[text()='ExpectedValue']
+                //htmltag[.='ExpectedValue']
+      Example:- //h1[text()='Welcome']
+
+4. Case 4: How to identify dynamic object - Contains()
+   -> contains function is used to identify the dynamic object
+   -> contains can automatically ignore the spaces before & after the string
+   -> contains  function can identify the object using part of the string or complete string
+   -> Syntax:-  //htmlTag[contains(text()/@attribute, 'expected value')]
+      Example:- //h1[contains(text(),'users')]
+
+5. Case 5: How to ignore unwanted spaces before and after the text - normalize-space()
+   -> using normalize-space  function we can ignore the space before & after the String 
+      or attribute
+   -> Syntax:-  //htmlTag[normalize-space(text()/@attribute) = ‘expected value’]
+      Example:- //h1[normalize-space(text())=’we have product’]
+
+6. Case 6: how to identify the when similar/duplicate/same object present multiple times 
+           in GUI
+   -> When object not able to identify using multiple attribute , in such cases will take 
+      reference of parent / grand parent htmlTag to identify the object uniquely
+   -> Syntax:-  //parentHTmlTag[@att=’value’]/childHtmlTag[@att=’value’]
+      Example:- //div[@class='samsung']/input[@value='Add to cart'] 
+
+7. Case 7: How to identify the elements using Other element references
+   -> Identify the reference [unique] element
+   -> Identify the required Element
+   -> Identify the common Parent for both required & reference Element
+   -> Write html tree structure 
+   -> By taking a help of reference element try to traverse to requires element 
+      via common parent
+   -> Also make use of various axes like ancestor, following-sibling, preceding-sibling,
+      decendant to optimse the xpath.
+   -> Example:-  //span[text()='Apple iPhone 13 (128GB) - Midnight']
+		  /ancestor::div[@class='a-section a-spacing-small a-spacing-top-small']
+		  /descendant::span[@class='a-price']/span[@class='a-offscreen']
+
+      Example:L- //div[text()='REDMI 9i Sport (Coral Green, 64 GB)']/preceding::span[@class='f3A4_V']
+
+
+8. Case 8: How to Identify Dynamic Elements - Dynamic Xpath
+   -> Xpath is getting created during runtime is called Dynamic Xpath
+   -> Dynamix xpath can be used to multiple elements by changing the variable value 
+      in runtime 
+   -> Dynamic xpath reduces size of Elements in Object Repository
+   -> In dynamic xpath variable value always comes from External File , 
+      but in example variable value is hardcoded
+   -> Example:-  //a[text()='"+orgName+"'] -> Here OrgName is the dynamic Data 
+
+9. Case 9: Handling svg tags
+   -> Svg elements are vector elements like graphical elements - circle, chrome symbol
+      firefox symbol where normal xpath format will not work
+   -> Synatx for writing <svg> tags
+      //*[local-name()='svg']
+      identify twitter in testproject
+      //*[local-name()='svg']/ancestor::li[@class='sc-twitter']
