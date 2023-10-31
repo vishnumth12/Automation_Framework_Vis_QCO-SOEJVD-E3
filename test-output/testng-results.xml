@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="10" total="20" passed="10" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[clicked create contacts link]]>
-    </line>
-    <line>
-      <![CDATA[clicked create contacts link]]>
-    </line>
-    <line>
-      <![CDATA[created new contact]]>
-    </line>
-    <line>
-      <![CDATA[header captured]]>
-    </line>
-    <line>
-      <![CDATA[header validated sucessfully]]>
     </line>
     <line>
       <![CDATA[created new contact]]>
@@ -26,68 +14,210 @@
       <![CDATA[header validated sucessfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-10-25T21:16:27 IST" name="Suite" finished-at="2023-10-25T21:18:17 IST" duration-ms="110246">
+  <suite started-at="2023-10-31T21:39:35 IST" name="Default suite" finished-at="2023-10-31T21:42:57 IST" duration-ms="201153">
     <groups>
       <group name="RegressionSuite">
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" name="createContactTest" class="ContactTests.CreateContactTest"/>
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" name="createContactTest" class="ContactTests.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:ContactTests.CreateContactTest@7ed7259e]" name="createContactTest" class="ContactTests.CreateContactTest"/>
+        <method signature="CreateOrganizationTest.createOrgTest()[pri:0, instance:OrganizationTests.CreateOrganizationTest@3d74bf60]" name="createOrgTest" class="OrganizationTests.CreateOrganizationTest"/>
       </group> <!-- RegressionSuite -->
       <group name="SmokeSuite">
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" name="createContactTest" class="ContactTests.CreateContactTest"/>
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" name="createContactTest" class="ContactTests.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:ContactTests.CreateContactTest@7ed7259e]" name="createContactTest" class="ContactTests.CreateContactTest"/>
+        <method signature="CreateContactWithOrganizationTest.createContactWithOrganizationTest()[pri:0, instance:ContactTests.CreateContactWithOrganizationTest@27ce24aa]" name="createContactWithOrganizationTest" class="ContactTests.CreateContactWithOrganizationTest"/>
       </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-10-25T21:16:27 IST" name="Test-Runner-Chrome" finished-at="2023-10-25T21:18:17 IST" duration-ms="110246">
-      <class name="ContactTests.CreateContactTest">
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" started-at="2023-10-25T21:16:28 IST" name="bcConfig" finished-at="2023-10-25T21:17:10 IST" duration-ms="42237" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" started-at="2023-10-25T21:17:13 IST" name="bmConfig" finished-at="2023-10-25T21:17:40 IST" duration-ms="26432" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmConfig -->
-        <test-method signature="createContactTest()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" started-at="2023-10-25T21:17:40 IST" name="createContactTest" finished-at="2023-10-25T21:18:09 IST" duration-ms="28754" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked create contacts link]]>
-            </line>
-            <line>
-              <![CDATA[created new contact]]>
-            </line>
-            <line>
-              <![CDATA[header captured]]>
-            </line>
-            <line>
-              <![CDATA[header validated sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createContactTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" started-at="2023-10-25T21:18:09 IST" name="amConfig" finished-at="2023-10-25T21:18:10 IST" duration-ms="1864" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:ContactTests.CreateContactTest@635eaaf1]" started-at="2023-10-25T21:18:11 IST" name="acConfig" finished-at="2023-10-25T21:18:17 IST" duration-ms="6743" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- acConfig -->
-      </class> <!-- ContactTests.CreateContactTest -->
-    </test> <!-- Test-Runner-Chrome -->
-    <test started-at="2023-10-25T21:16:27 IST" name="Test-Runner-Firefox" finished-at="2023-10-25T21:18:17 IST" duration-ms="110246">
-      <class name="ContactTests.CreateContactTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:16:27 IST" name="bsConfig" finished-at="2023-10-25T21:16:27 IST" duration-ms="24" status="PASS">
+    <test started-at="2023-10-31T21:39:35 IST" name="Default test" finished-at="2023-10-31T21:42:57 IST" duration-ms="201153">
+      <class name="OrganizationTests.CreateOrganizationTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:OrganizationTests.CreateOrganizationTest@3d74bf60]" started-at="2023-10-31T21:39:35 IST" name="bsConfig" finished-at="2023-10-31T21:39:35 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:16:28 IST" name="bcConfig" finished-at="2023-10-25T21:17:10 IST" duration-ms="42233" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:OrganizationTests.CreateOrganizationTest@3d74bf60]" started-at="2023-10-31T21:39:36 IST" name="bcConfig" finished-at="2023-10-31T21:39:44 IST" duration-ms="7724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:17:13 IST" name="bmConfig" finished-at="2023-10-25T21:17:39 IST" duration-ms="25501" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:OrganizationTests.CreateOrganizationTest@3d74bf60]" started-at="2023-10-31T21:39:44 IST" name="bmConfig" finished-at="2023-10-31T21:39:51 IST" duration-ms="7220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="createContactTest()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:17:39 IST" name="createContactTest" finished-at="2023-10-25T21:18:09 IST" duration-ms="30268" status="PASS">
+        <test-method signature="createOrgTest()[pri:0, instance:OrganizationTests.CreateOrganizationTest@3d74bf60]" started-at="2023-10-31T21:39:51 IST" name="createOrgTest" finished-at="2023-10-31T21:39:57 IST" duration-ms="6313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:OrganizationTests.CreateOrganizationTest@3d74bf60]" started-at="2023-10-31T21:39:57 IST" name="amConfig" finished-at="2023-10-31T21:39:58 IST" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:OrganizationTests.CreateOrganizationTest@3d74bf60]" started-at="2023-10-31T21:39:58 IST" name="acConfig" finished-at="2023-10-31T21:39:58 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:OrganizationTests.CreateOrganizationTest@3d74bf60]" started-at="2023-10-31T21:42:57 IST" name="asConfig" finished-at="2023-10-31T21:42:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- OrganizationTests.CreateOrganizationTest -->
+      <class name="ContactTests.CreateContactWithOrganizationTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:ContactTests.CreateContactWithOrganizationTest@27ce24aa]" started-at="2023-10-31T21:39:58 IST" name="bcConfig" finished-at="2023-10-31T21:40:05 IST" duration-ms="6168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:ContactTests.CreateContactWithOrganizationTest@27ce24aa]" started-at="2023-10-31T21:40:05 IST" name="bmConfig" finished-at="2023-10-31T21:40:12 IST" duration-ms="7383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContactWithOrganizationTest()[pri:0, instance:ContactTests.CreateContactWithOrganizationTest@27ce24aa]" started-at="2023-10-31T21:40:12 IST" name="createContactWithOrganizationTest" finished-at="2023-10-31T21:40:29 IST" duration-ms="16718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrganizationTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:ContactTests.CreateContactWithOrganizationTest@27ce24aa]" started-at="2023-10-31T21:40:29 IST" name="amConfig" finished-at="2023-10-31T21:40:34 IST" duration-ms="5462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:ContactTests.CreateContactWithOrganizationTest@27ce24aa]" started-at="2023-10-31T21:40:34 IST" name="acConfig" finished-at="2023-10-31T21:40:35 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- ContactTests.CreateContactWithOrganizationTest -->
+      <class name="OrganizationTests.CreateMultipleOrgWithIndustry">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:40:35 IST" name="bcConfig" finished-at="2023-10-31T21:40:41 IST" duration-ms="6058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:40:41 IST" name="bmConfig" finished-at="2023-10-31T21:40:48 IST" duration-ms="7029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createMultipleOrg(java.lang.String,java.lang.String)[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:40:48 IST" name="createMultipleOrg" data-provider="getData" finished-at="2023-10-31T21:40:54 IST" duration-ms="6470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wipro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chemicals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleOrg -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:40:54 IST" name="amConfig" finished-at="2023-10-31T21:40:55 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:40:55 IST" name="bmConfig" finished-at="2023-10-31T21:40:58 IST" duration-ms="2349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createMultipleOrg(java.lang.String,java.lang.String)[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:40:58 IST" name="createMultipleOrg" data-provider="getData" finished-at="2023-10-31T21:41:04 IST" duration-ms="6433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Healthcare]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleOrg -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:04 IST" name="amConfig" finished-at="2023-10-31T21:41:05 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:05 IST" name="bmConfig" finished-at="2023-10-31T21:41:07 IST" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createMultipleOrg(java.lang.String,java.lang.String)[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:07 IST" name="createMultipleOrg" data-provider="getData" finished-at="2023-10-31T21:41:12 IST" duration-ms="5244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KFC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Energy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleOrg -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:13 IST" name="amConfig" finished-at="2023-10-31T21:41:17 IST" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:17 IST" name="bmConfig" finished-at="2023-10-31T21:41:19 IST" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createMultipleOrg(java.lang.String,java.lang.String)[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:19 IST" name="createMultipleOrg" data-provider="getData" finished-at="2023-10-31T21:41:29 IST" duration-ms="9667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dominos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Education]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleOrg -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:29 IST" name="amConfig" finished-at="2023-10-31T21:41:32 IST" duration-ms="3172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:32 IST" name="bmConfig" finished-at="2023-10-31T21:41:34 IST" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createMultipleOrg(java.lang.String,java.lang.String)[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:34 IST" name="createMultipleOrg" data-provider="getData" finished-at="2023-10-31T21:41:39 IST" duration-ms="4944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Qspides]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Banking]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleOrg -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:39 IST" name="amConfig" finished-at="2023-10-31T21:41:41 IST" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:OrganizationTests.CreateMultipleOrgWithIndustry@481a996b]" started-at="2023-10-31T21:41:41 IST" name="acConfig" finished-at="2023-10-31T21:41:41 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- OrganizationTests.CreateMultipleOrgWithIndustry -->
+      <class name="ContactTests.CreateContactTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:ContactTests.CreateContactTest@7ed7259e]" started-at="2023-10-31T21:41:41 IST" name="bcConfig" finished-at="2023-10-31T21:41:52 IST" duration-ms="10579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:ContactTests.CreateContactTest@7ed7259e]" started-at="2023-10-31T21:41:52 IST" name="bmConfig" finished-at="2023-10-31T21:42:01 IST" duration-ms="9437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContactTest()[pri:0, instance:ContactTests.CreateContactTest@7ed7259e]" started-at="2023-10-31T21:42:01 IST" name="createContactTest" finished-at="2023-10-31T21:42:07 IST" duration-ms="5894" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[clicked create contacts link]]>
@@ -103,19 +233,59 @@
             </line>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:18:09 IST" name="amConfig" finished-at="2023-10-25T21:18:11 IST" duration-ms="1514" status="PASS">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:ContactTests.CreateContactTest@7ed7259e]" started-at="2023-10-31T21:42:07 IST" name="amConfig" finished-at="2023-10-31T21:42:10 IST" duration-ms="2957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:18:11 IST" name="acConfig" finished-at="2023-10-25T21:18:17 IST" duration-ms="6572" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:ContactTests.CreateContactTest@7ed7259e]" started-at="2023-10-31T21:42:10 IST" name="acConfig" finished-at="2023-10-31T21:42:10 IST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:ContactTests.CreateContactTest@384ad17b]" started-at="2023-10-25T21:18:23 IST" name="asConfig" finished-at="2023-10-25T21:18:23 IST" duration-ms="24" status="PASS">
+      </class> <!-- ContactTests.CreateContactTest -->
+      <class name="OrganizationTests.CreateOrgWithIndustryAndTypeTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:OrganizationTests.CreateOrgWithIndustryAndTypeTest@3427b02d]" started-at="2023-10-31T21:42:33 IST" name="bcConfig" finished-at="2023-10-31T21:42:41 IST" duration-ms="7891" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- asConfig -->
-      </class> <!-- ContactTests.CreateContactTest -->
-    </test> <!-- Test-Runner-Firefox -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:OrganizationTests.CreateOrgWithIndustryAndTypeTest@3427b02d]" started-at="2023-10-31T21:42:41 IST" name="bmConfig" finished-at="2023-10-31T21:42:49 IST" duration-ms="7166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createOrgWithIndustryAndTypeTest()[pri:0, instance:OrganizationTests.CreateOrgWithIndustryAndTypeTest@3427b02d]" started-at="2023-10-31T21:42:49 IST" name="createOrgWithIndustryAndTypeTest" finished-at="2023-10-31T21:42:55 IST" duration-ms="6890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustryAndTypeTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:OrganizationTests.CreateOrgWithIndustryAndTypeTest@3427b02d]" started-at="2023-10-31T21:42:55 IST" name="amConfig" finished-at="2023-10-31T21:42:56 IST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:OrganizationTests.CreateOrgWithIndustryAndTypeTest@3427b02d]" started-at="2023-10-31T21:42:56 IST" name="acConfig" finished-at="2023-10-31T21:42:57 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- OrganizationTests.CreateOrgWithIndustryAndTypeTest -->
+      <class name="OrganizationTests.CreateOrgWithIndustryTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:OrganizationTests.CreateOrgWithIndustryTest@28eaa59a]" started-at="2023-10-31T21:42:10 IST" name="bcConfig" finished-at="2023-10-31T21:42:15 IST" duration-ms="5161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:OrganizationTests.CreateOrgWithIndustryTest@28eaa59a]" started-at="2023-10-31T21:42:15 IST" name="bmConfig" finished-at="2023-10-31T21:42:22 IST" duration-ms="6893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createOrgWithIndustryTest()[pri:0, instance:OrganizationTests.CreateOrgWithIndustryTest@28eaa59a]" started-at="2023-10-31T21:42:22 IST" name="createOrgWithIndustryTest" finished-at="2023-10-31T21:42:32 IST" duration-ms="10103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustryTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:OrganizationTests.CreateOrgWithIndustryTest@28eaa59a]" started-at="2023-10-31T21:42:32 IST" name="amConfig" finished-at="2023-10-31T21:42:33 IST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:OrganizationTests.CreateOrgWithIndustryTest@28eaa59a]" started-at="2023-10-31T21:42:33 IST" name="acConfig" finished-at="2023-10-31T21:42:33 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- OrganizationTests.CreateOrgWithIndustryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
